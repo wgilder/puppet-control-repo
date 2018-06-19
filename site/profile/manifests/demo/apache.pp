@@ -7,4 +7,5 @@
 # @example
 #   include profile::demo::apache
 class profile::demo::apache {
+  class { 'apache': }
 }
