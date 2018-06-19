@@ -1,4 +1,3 @@
 # new comment
 
-#mod 'profile',
-#    :git => 'https://github.com/wgilder/hiera-work.git'
+mod 'puppetlabs-ntp', '7.1.1'
