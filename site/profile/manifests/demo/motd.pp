@@ -7,4 +7,9 @@
 # @example
 #   include profile::demo::motd
 class profile::demo::motd {
+  $ws_hostname = $::hostname
+
+  class { 'motd':
+    template => 'puppet:///modules/profile/motd-template.txt',
+  }
 }
