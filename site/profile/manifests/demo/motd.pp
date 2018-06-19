@@ -10,6 +10,6 @@ class profile::demo::motd {
   $ws_hostname = $::hostname
 
   class { 'motd':
-    content => file('profile/motd-template.txt'),
+    content => template('profile/motd-template.txt', {'ws_hostname'=>$::hostname}),
   }
 }
