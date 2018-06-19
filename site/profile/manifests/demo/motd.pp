@@ -10,6 +10,6 @@ class profile::demo::motd {
   $ws_hostname = $::hostname
 
   class { 'motd':
-    template => 'puppet:///modules/profile/motd-template.txt',
+    content => file('profile/motd-template.txt'),
   }
 }
