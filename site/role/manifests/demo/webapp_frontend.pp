@@ -7,4 +7,7 @@
 # @example
 #   include role::demo::webapp_frontend
 class role::demo::webapp_frontend {
+  include profile::demo::ntp
+  include profile::demo::motd
+  include profile::demo::apache
 }
