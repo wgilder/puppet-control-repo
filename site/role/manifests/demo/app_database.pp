@@ -6,6 +6,6 @@
 #
 # @example
 #   include role::demo::postgresql
-class role::demo::postgresql {
+class role::demo::app_database {
   include profile::demo::postgresql
 }
