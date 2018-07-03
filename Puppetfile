@@ -15,4 +15,5 @@ mod 'puppetlabs-translate', '1.1.0'
 mod 'puppet-staging', '3.2.0'
 mod 'puppetlabs-mysql', '5.4.0'
 mod 'puppet-selinux', '1.5.2'
+mod 'puppetlabs-aws', '2.1.0'
 
