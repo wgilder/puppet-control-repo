@@ -17,3 +17,4 @@ mod 'puppetlabs-mysql', '5.4.0'
 mod 'puppet-selinux', '1.5.2'
 mod 'puppetlabs-aws', '2.1.0'
 
+mod 'puppetlabs-firewall', '1.14.0'
