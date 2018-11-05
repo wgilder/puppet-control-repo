@@ -1,2 +1,1 @@
 # puppet-control-repo
-# pang
