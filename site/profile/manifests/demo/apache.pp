@@ -7,7 +7,7 @@
 # @example
 #   include profile::demo::apache
 class profile::demo::apache {
-  class { 'apache': 
+  class { 'apache':
     default_vhost=> true,
   }
 
