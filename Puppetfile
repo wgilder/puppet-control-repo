@@ -16,5 +16,17 @@ mod 'puppet-staging', '3.2.0'
 mod 'puppetlabs-mysql', '5.4.0'
 mod 'puppet-selinux', '1.5.2'
 mod 'puppetlabs-aws', '2.1.0'
-
 mod 'puppetlabs-firewall', '1.14.0'
+mod 'puppetlabs-bolt_shim', '0.2.0'
+
+mod 'puppet_agent',
+    :git    => 'https://github.com/puppetlabs/puppetlabs-puppet_agent.git',
+    :branch => 'master'
+
+mod 'apply_helpers',
+    :git    => 'https://github.com/puppetlabs/puppetlabs-apply_helpers.git',
+    :branch => 'master'
+
+mod 'tools',
+    :git    => 'https://github.com/wgilder/bolt-work.git',
+    :branch => 'c39acff67980bca181011453d63615094ced4c8c'
