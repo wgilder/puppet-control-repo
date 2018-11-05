@@ -1,4 +1,4 @@
-# new comment
+# Primary puppet file
 
 mod 'puppetlabs-stdlib', '4.25.1'
 mod 'puppetlabs-registry', '2.0.1'
